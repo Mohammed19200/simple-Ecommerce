@@ -1,0 +1,15 @@
+.addtoFavoritebtn {
+  outline: 0;
+  border: 0;
+  padding: 0.5rem 0.9rem;
+  border-radius: 0.5rem;
+  background-color: #f66708da;
+  color: white;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+.addtoFavoritebtn:hover {
+    background-color: #f66708a5;
+}

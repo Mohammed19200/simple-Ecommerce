@@ -1,0 +1,19 @@
+.h3ProductsSection {
+    font-size: 1.6rem;
+    line-height: 64px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-duration: 2s;
+}
+
+.ProductsSection {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem 0rem;
+}

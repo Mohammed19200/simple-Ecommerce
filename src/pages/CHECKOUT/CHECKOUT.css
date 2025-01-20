@@ -1,0 +1,140 @@
+.CHECKOUTbigestdiv {
+    margin: auto;
+    padding: 2rem 0rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.CHECKOUTbigestdivh1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.checkoutfirstdiv1h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.checkoutfirstdiv1select {
+    padding: 0.9rem 2rem;
+    outline: 0;
+    border: 1px solid #878787;
+    border-radius: 1rem;
+}
+
+.checkoutfirstdiv1select:hover {
+    border: 1px solid #333;
+}
+
+.checkoutfirstdiv1input {
+    padding: 0.9rem 2rem;
+    outline: 0;
+    border: 1px solid #878787;
+    border-radius: 1rem;
+}
+
+.checkoutfirstdiv1input:hover {
+    border: 2px solid #333;
+}
+
+.CHECKOUTbigestdiv1one {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 1rem;
+    padding: 1.3rem;
+    background-color: #f4f4f4;
+    border-radius: 1rem;
+}
+
+.CHECKOUTbigestdiv1one1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.CHECKOUTbigestdiv1one2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.addtocartbtnnn11checkout {
+    outline: 0;
+    border: 0;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    background-color: #f66608;
+    color: white;
+    margin: auto;
+}
+
+.addtocartbtnnn11checkout:hover {
+    background-color: #333;
+}
+
+.inputanderrormessagestyle {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.formcheckout {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.buttoncheckoutstylee {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 0rem;
+}
+
+.buttoncheckoutss1 {
+    outline: 0;
+    border: 0;
+    background-color: #f66608;
+    color: white;
+    border-radius: 1rem;
+    padding: 0.8rem 1.5rem;
+}
+
+
+.buttoncheckoutss2 {
+    outline: 0;
+    border: 0;
+    background-color: #333;
+    color: white;
+    border-radius: 1rem;
+    padding: 0.8rem 1.5rem;
+}

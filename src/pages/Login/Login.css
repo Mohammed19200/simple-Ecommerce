@@ -1,0 +1,75 @@
+.auth-contt {
+  border-radius: 1.5rem;
+  padding: 2rem 1rem;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.926);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.input-group input {
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.biiiigdivv {
+  background-image: url('../../assets/lobinbackground.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  height: 49.7rem;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.labellogin {
+  color: #333;
+}
+
+.input-group {
+  border-radius: 1rem;
+  padding: 0.7rem 1rem;
+}
+
+.colorlinklogin {
+  color: #f66608;
+  padding: 0rem 0.4rem;
+}
+
+.colorlinklogin:hover {
+  color: #333;
+}
+
+.buttonlogin {
+  background-color: #f66608;
+  color: white;
+  padding: 0.6rem 2rem;
+  border-radius: 1rem;
+  outline: 0;
+  border: 0;
+}
+
+.buttonlogin:hover {
+  background-color: #333;
+}
+.loginbigdivform{
+  margin: auto;
+}

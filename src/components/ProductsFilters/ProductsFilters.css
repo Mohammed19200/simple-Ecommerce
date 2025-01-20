@@ -1,0 +1,54 @@
+.filter__input {
+  padding: 10px 15px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgba(0 0 0 / .3);
+  background-color: white;
+}
+
+.filter__inputt {
+  padding: 12px 28px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgba(0 0 0 / .3);
+  background-color: white;
+}
+
+.filter__inputt:hover {
+  border: 1px solid #333;
+}
+
+.filter__input:hover {
+  border: 1px solid #333;
+}
+
+#filters {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.formss {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.filtersbuttons {
+  background-color: #f66608;
+  outline: 0;
+  border: 0;
+  color: white;
+}
+
+.filtersbuttons:hover {
+  background-color: #333;
+}

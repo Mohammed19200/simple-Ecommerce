@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.bigdivv {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.btnn {
+    background-color: #333;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    border: none;
+}
+
+.btnn:hover {
+    background-color: #f66608;
+}
+
+.h44 {
+    font-weight: 400;
+    font-style: normal;
+    color: #333;
+
+}
+
+.linkhome {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (min-width: 769px) {
+    .photosize {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .photosize {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 680px) and (max-width: 769px) {
+    .photosize {
+        width: 75%;
+    }
+}

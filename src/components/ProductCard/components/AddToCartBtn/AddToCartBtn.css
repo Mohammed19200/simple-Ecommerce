@@ -1,0 +1,179 @@
+.addtocartbtn {
+    outline: 0;
+    border: 0;
+    padding: 0.7rem 1.5rem;
+    border-radius: 1rem;
+    background-color: #f66608;
+    color: white;
+}
+
+.addtocartbtn:hover {
+    background-color: #333;
+}
+
+    .incrdecrstyles {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0rem 1rem;
+        flex-wrap: wrap;
+    }
+
+@media screen and (min-width:300px) {
+    /* .incrdecrstyles {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 0rem 0.5rem;
+        flex-wrap: nowrap;
+    } */
+    .addtocartbtn {
+        outline: 0;
+        border: 0;
+        padding: 0.7rem 2.95rem;
+        border-radius: 1rem;
+        background-color: #f66608;
+        color: white;
+        -webkit-border-radius: 1rem;
+        -moz-border-radius: 1rem;
+        -ms-border-radius: 1rem;
+        -o-border-radius: 1rem;
+}
+}
+@media screen and (min-width:374px) {
+    /* .incrdecrstyles {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 0rem 1.58rem;
+        flex-wrap: nowrap;
+    } */
+    .addtocartbtn {
+        outline: 0;
+        border: 0;
+        padding: 0.7rem 4.02rem;
+        border-radius: 1rem;
+        background-color: #f66608;
+        color: white;
+    }
+}
+@media screen and (min-width:424px) {
+    /* .incrdecrstyles {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 0rem 2.51rem;
+        flex-wrap: nowrap;
+    } */
+    .addtocartbtn {
+        outline: 0;
+        border: 0;
+        padding: 0.7rem 4.97rem;
+        border-radius: 1rem;
+        background-color: #f66608;
+        color: white;
+    }
+}
+
+@media screen and (min-width:767px) {
+    /* .incrdecrstyles {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 0rem 1.46rem;
+        flex-wrap: nowrap;
+    } */
+    .addtocartbtn {
+        outline: 0;
+        border: 0;
+        padding: 0.7rem 3.9rem;
+        border-radius: 1rem;
+        background-color: #f66608;
+        color: white;
+    }
+}
+@media screen and (min-width:1023px) {
+    /* .incrdecrstyles {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 0rem 0.77rem;
+        flex-wrap: nowrap;
+    } */
+    .addtocartbtn {
+        outline: 0;
+        border: 0;
+        padding: 0.7rem 3.2rem;
+        border-radius: 1rem;
+        background-color: #f66608;
+        color: white;
+    }
+}
+@media screen and (min-width:1439px) {
+    /* .incrdecrstyles {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 0rem 1.03rem;
+        flex-wrap: nowrap;
+    } */
+    .addtocartbtn {
+        outline: 0;
+        border: 0;
+        padding: 0.7rem 3.46rem;
+        border-radius: 1rem;
+        background-color: #f66608;
+        color: white;
+    }
+}
+@media screen and (min-width:1500px) {
+    /* .incrdecrstyles {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 0rem 1.95rem;
+        flex-wrap: nowrap;
+    } */
+    .addtocartbtn {
+        outline: 0;
+        border: 0;
+        padding: 0.7rem 4.4rem;
+        border-radius: 1rem;
+        background-color: #f66608;
+        color: white;
+    }
+}
+@media screen and (min-width:2000px) {
+    /* .incrdecrstyles {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 0rem 6.4rem;
+        flex-wrap: nowrap;
+    } */
+    .addtocartbtn {
+        outline: 0;
+        border: 0;
+        padding: 0.7rem 8.82rem;
+        border-radius: 1rem;
+        background-color: #f66608;
+        color: white;
+    }
+}

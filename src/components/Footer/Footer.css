@@ -1,0 +1,74 @@
+.footerbigdivstyle {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.titlesmallstyle {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.titlebigstyle {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.bigdivv11 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    padding: 2rem 0rem;
+    background-color: #f8f9fa;
+    gap: 2rem;
+}
+
+.bigdivv2222 {
+    text-align: center;
+    color: #333333;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.iconsstylee {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 1rem;
+}
+
+#iconstylee {
+    color: #999;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#linkkstylee {
+    font-size: 15px;
+    color: #999;
+    cursor: pointer;
+
+}
+#linkkstyleee {
+    font-size: 15px;
+    color: #999;
+}
+
+#iconstylee:hover {
+    color: #f66608;
+}
+
+#linkkstylee:hover {
+    color: #f66608;
+}
+.colorlinkcheckoutstyle{
+    color: white !important;
+}

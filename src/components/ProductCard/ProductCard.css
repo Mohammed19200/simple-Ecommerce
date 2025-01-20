@@ -1,0 +1,89 @@
+.product__card__img {
+  height: 266px;
+  object-fit: cover;
+}
+
+.colorlinklink {
+  color: #333 !important;
+  font-size: 1rem;
+}
+
+.colorlinklink:hover {
+  color: #f66608 !important;
+}
+
+#iconproductcarrd {
+  color: #f66608 !important;
+  font-size: 1.5rem;
+}
+
+.iconproductcarrddiv {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  background-color: #333;
+  padding: 0.6rem 0rem;
+  margin: auto;
+}
+
+.twoobuttonaddto {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 1rem;
+  margin: auto;
+  align-items: center;
+}
+
+.addedcartbtn {
+  outline: 0;
+  border: 0;
+  padding: 0.7rem 1.5rem;
+  border-radius: 1rem;
+  background-color: #f66708b4;
+  color: white;
+}
+
+.addtocartbtnnb {
+  outline: 0;
+  border: 0;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #f667089f;
+  color: white;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+
+
+.addtocartbtnnb:hover {
+  background-color: #333333c0;
+}
+.incrdecrstyles{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.addtocartbtnincrease {
+  outline: 0;
+  border: 0;
+  padding: 0.7rem 1.5rem;
+  border-radius: 1rem;
+  background-color: #f667089f;
+  color: white;
+}
+
+.addtocartbtn:hover {
+  background-color: #333333c0;
+}
+.cardelproductcard{
+  cursor: pointer;
+}
