@@ -1,64 +1,64 @@
 .cart-productt {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-around;
-    align-items: center;
-    padding: 1rem 0rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0rem;
 }
 
 .h1Cartitemdiv {
-    font-size: 1rem;
-    font-weight: 400;
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 .spanCartitemdiv {
-    font-size: 1rem;
-    font-weight: 400;
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 .remove-button-cart {
-    cursor: pointer;
-    color: white;
+  cursor: pointer;
+  color: white;
 }
 
 .colorspanstyle {
-    color: red;
+  color: red;
 }
 
 .colorsppanstyle {
-    color: green;
+  color: green;
 }
 
 .iconRemoveBtnFavorite2 {
-    color: white;
+  color: white;
 }
 
 .decreaseQuantitystyle {
-    color: white;
-    font-size: 1rem;
+  color: white;
+  font-size: 1rem;
 }
 
 .decreaseQuantitystyle:hover {
-    color: #f66608 !important;
+  color: #f66608 !important;
 }
 .removein {
-    color: white;
-    font-size: 1rem;
+  color: white;
+  font-size: 1rem;
 }
 .removeinn {
-    color: red;
-    font-size: 1rem;
+  color: red;
+  font-size: 1rem;
 }
 
 .iconRemoveBtnFavorite2 {
-    color: white !important;
+  color: white !important;
 }
 
-.remove-Item-Style{
-    font-size: 1.3rem;
+.remove-Item-Style {
+  font-size: 1.3rem;
 }
-.remove-Item-Style:hover{
-    color: orange;
+.remove-Item-Style:hover {
+  color: orange;
 }

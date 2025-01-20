@@ -5,17 +5,8 @@ import CartFooter from "../../components/Cart/CartFooter/CartFooter";
 import CartHeader from "../../components/Cart/CartHeader/CartHeader";
 import { useRecoilState } from "recoil";
 import { $cartAtom } from "../../atoms/cartAtom";
-import { useEffect } from 'react';
-import WOW from 'wowjs';
 
 export default function Cart() {
-
-  useEffect(() => {
-    new WOW.WOW({
-        live: true
-    }).init();
-}, [])
-
   const [cartData] = useRecoilState($cartAtom);
 
   let content;
@@ -33,7 +24,14 @@ export default function Cart() {
     );
   }
 
-  return <div className="favorite-contbigest col-12">
-    <div className="favorite-cont col-12 col-md-11 wow animate__animated animate__fadeInLeft animate__slow" data-wow-delay="0.1s">{content}</div>
+  return (
+    <div className="favorite-contbigest col-12">
+      <div
+        className="favorite-cont col-12 col-md-11 wow animate__animated animate__fadeInLeft animate__slow"
+        data-wow-delay="0.1s"
+      >
+        {content}
+      </div>
     </div>
+  );
 }

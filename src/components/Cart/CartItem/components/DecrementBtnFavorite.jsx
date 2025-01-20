@@ -8,18 +8,15 @@ export default function DecrementBtn1({ id }) {
 
   function decreaseQuantity() {
     let obj = cartData.find((product) => product.id === id);
-    if(obj.quantity === 1) return ;
+    if (obj.quantity === 1) return;
     const newObj = { ...obj, quantity: obj.quantity - 1 };
     const newCartData = [...cartData];
     newCartData.splice(newCartData.indexOf(obj), 1, newObj);
     setCartData(newCartData);
   }
-  
+
   return (
-    <span
-      className="decreaseQuantitystyle"
-      onClick={decreaseQuantity}
-    >
+    <span className="decreaseQuantitystyle" onClick={decreaseQuantity}>
       -
     </span>
   );

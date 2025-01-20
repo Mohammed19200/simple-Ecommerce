@@ -4,9 +4,9 @@ import { authData } from "../../atoms/authAtom";
 import { Navigate } from "react-router";
 
 export default function IsLoggedIn({ children }) {
-  const [authdata] = useRecoilState(authData)
+  const [authdata] = useRecoilState(authData);
 
-  if(!authdata.isAuth) return <Navigate to="/login"/>;
+  if (!authdata.isAuth) return <Navigate to="/login" />;
 
   return <div>{children}</div>;
 }

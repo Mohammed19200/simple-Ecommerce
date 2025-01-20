@@ -1,141 +1,141 @@
 #informationdiv {
-    background-color: #f6f6f6;
-    padding: 2rem;
-    border-radius: 1.5rem;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 1rem;
+  background-color: #f6f6f6;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1rem;
 }
 
 #titlestyle {
-    color: #333;
-    font-size: 14px;
-    line-height: 21px;
-    letter-spacing: 1px;
-    font-weight: 500;
+  color: #333;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 1px;
+  font-weight: 500;
 }
 
 #decriptionstyle {
-    font-size: 13px;
-    line-height: 24px;
-    color: #878787;
+  font-size: 13px;
+  line-height: 24px;
+  color: #878787;
 }
 
 #iconcolor {
-    font-size: 1.5rem;
-    color: #f66608;
+  font-size: 1.5rem;
+  color: #f66608;
 }
 
 #bigdiv1 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
 #titlebig {
-    font-weight: 500;
-    font-style: normal;
-    color: #333;
-    line-height: 64px;
-    font-size: 1.5rem;
-    text-align: center;
+  font-weight: 500;
+  font-style: normal;
+  color: #333;
+  line-height: 64px;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 .bigdiv11big {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    padding: 3rem 0rem;
-    gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0rem;
+  gap: 2rem;
 }
 
 .mapp {
-    border-radius: 1rem;
-    height: 600px;
-    width: 80%;
+  border-radius: 1rem;
+  height: 600px;
+  width: 80%;
 }
 
 #divmap {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .inputstylee {
-    border: 0;
-    border-bottom: #878787 solid 1px;
-    outline: 0;
-    padding: 1rem;
+  border: 0;
+  border-bottom: #878787 solid 1px;
+  outline: 0;
+  padding: 1rem;
 }
 
 .inputstylee:hover {
-    border-bottom: black solid 1px;
+  border-bottom: black solid 1px;
 }
 
 .formstyle {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    padding: 2rem 0rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 0rem;
 }
 
 .titleformstyle {
-    font-size: 2rem;
-    line-height: 64px;
-    color: #333;
-    font-weight: 300;
-    font-style: normal;
+  font-size: 2rem;
+  line-height: 64px;
+  color: #333;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .buttonstyle {
-    padding: 1rem 3rem;
-    background-color: #f66608;
-    color: white;
-    border-radius: 1.5rem;
-    border: 0;
-    outline: 0;
+  padding: 1rem 3rem;
+  background-color: #f66608;
+  color: white;
+  border-radius: 1.5rem;
+  border: 0;
+  outline: 0;
 }
 
 .buttonstyle:hover {
-    background-color: #333;
+  background-color: #333;
 }
 
 .messageformstyle {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    padding: 2rem 0rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 2rem 0rem;
 }
 
 .formmessage {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 1rem;
 }

@@ -1,16 +1,9 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import ProductCard from "../ProductCard/ProductCard";
 import './ProductsSection.css'
-import WOW from 'wowjs';
 
 export default function ProductsSection({ title, products }) {
-
-  useEffect(() => {
-    new WOW.WOW({
-      live: true
-    }).init();
-  }, [])
 
   return (
     <div className="ProductsSection">

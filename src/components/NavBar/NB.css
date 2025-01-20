@@ -1,245 +1,243 @@
 .btnnn {
-    background-color: #f66608;
-    padding: 0.8rem;
-    border-radius: 1rem;
-    border: none;
+  background-color: #f66608;
+  padding: 0.8rem;
+  border-radius: 1rem;
+  border: none;
 }
 
 .btnnn:hover {
-    background-color: #333;
+  background-color: #333;
 }
 
 #links {
-    color: white
+  color: white;
 }
 
 .navs {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
 }
 
 .colorlinks {
-    color: #333 !important;
+  color: #333 !important;
 }
 
 .colorlinks:hover {
-    color: #f66608 !important;
+  color: #f66608 !important;
 }
 
 .dropdownstyle {
-    padding: 0rem 1rem !important;
+  padding: 0rem 1rem !important;
 }
 
 .navvvs {
-    padding: 1rem 0rem;
+  padding: 1rem 0rem;
 }
 
 .nav2111 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    gap: 1rem;
-    justify-content: flex-start;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 1rem;
+  justify-content: flex-start;
 }
 
 .navbarstyleshop {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
 }
 
 .lishopstyle {
-    text-align: center;
+  text-align: center;
 }
 
 .btnnn1111 {
-    background-color: #f66608;
-    width: 2.5rem;
-    height: 2.5rem;
-    border-radius: 50%;
-    border: none;
-        display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: nowrap;
+  background-color: #f66608;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
 }
 
 .btnnn1111:hover {
-    background-color: #333;
+  background-color: #333;
 }
 
 #iconproductcarrdddd {
-    color: white !important;
-    font-size: 1.2rem;
-    text-align: center;
+  color: white !important;
+  font-size: 1.2rem;
+  text-align: center;
 }
 
 #iconproductcarrddddLogout {
-    color: white !important;
-    font-size: 1.6rem;
-    text-align: center;
+  color: white !important;
+  font-size: 1.6rem;
+  text-align: center;
 }
 
 .iconproductcarrdddddiv {
-    width: 2.5rem;
-    height: 2.5rem;
-    border-radius: 50%;
-    background-color: #f66608;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: #f66608;
 }
 
-
 .iconproductcarrdddddiv:hover {
-    background-color: #333;
+  background-color: #333;
 }
 
 .logoutandfavoriteandcartstyle {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0rem 1rem;
+}
+
+.cartandfavoritestylediv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.cartandcount {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 0.2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.countcartstylecolor {
+  color: #f66608 !important;
+  font-size: 0.8rem;
+}
+
+.navbarfinalstyle {
+  position: sticky;
+  top: 0;
+  z-index: 999999999;
+}
+
+.navbarbig {
+  display: flex !important;
+}
+
+.navbootstrapstyle {
+  background-color: #f8f9fa;
+}
+
+.navbootstrapstyleheader {
+  padding: 1.5rem 0rem;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.navbootstyle1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0.9rem;
+}
+
+.navbootstyle1 h1 {
+  font-size: 1.5rem;
+  padding: 0rem 1rem;
+}
+
+.auth-user-name {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 426px) {
+  .navbootstyle1 h1 {
+    font-size: 1.2rem;
+    padding: 0rem;
+  }
+
+  .auth-user-name {
+    font-size: 0.7rem;
+  }
+
+  .nav2111 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbootstyle1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 1rem 0.9rem;
+    gap: 1.5rem;
+  }
+
+  .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .logoutandfavoriteandcartstyle {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-start;
-    align-items: center;
-    gap: 1.5rem;
-    padding: 0rem 1rem;
-}
-
-.cartandfavoritestylediv {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    gap: 1.5rem;
-}
-
-.cartandcount {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    gap: 0.2rem;
-    align-items: center;
-    justify-content: center;
-}
-
-.countcartstylecolor {
-    color: #f66608 !important;
-    font-size: 0.8rem;
-}
-
-.navbarfinalstyle {
-    position: sticky;
-    top: 0;
-    z-index: 999999999;
-}
-
-.navbarbig {
-    display: flex !important;
-}
-
-.navbootstrapstyle {
-    background-color: #f8f9fa;
-}
-
-.navbootstrapstyleheader {
-    padding: 1.5rem 0rem;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-around;
     align-items: flex-start;
-}
-
-.navbootstyle1 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 0.9rem;
-}
-
-.navbootstyle1 h1 {
-    font-size: 1.5rem;
-    padding: 0rem 1rem;
-}
-
-.auth-user-name {
-    font-size: 1rem;
-}
-
-@media screen and (max-width:426px) {
-
-    .navbootstyle1 h1 {
-        font-size: 1.2rem;
-        padding: 0rem;
-    }
-
-    .auth-user-name {
-        font-size: 0.7rem;
-    }
-
-    .nav2111 {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        gap: 0.5rem;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .navbootstyle1 {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-        padding: 1rem 0.9rem;
-        gap: 1.5rem;
-    }
-
-    .navbar-collapse {
-        flex-basis: 100%;
-        flex-grow: 1;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-content: flex-start;
-        justify-content: center;
-        gap: 1rem;
-    }
-
-    .logoutandfavoriteandcartstyle {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-        align-items: flex-start;
-        gap: 1.5rem;
-        padding: 0rem;
-    }
+    gap: 1.5rem;
+    padding: 0rem;
+  }
 }
 
 .NBstylebackground {
-    background-color: #333;
-    border-bottom: 1px solid #33333312;
+  background-color: #333;
+  border-bottom: 1px solid #33333312;
 }
 
 .colorlinks12 {
-    color: white;
+  color: white;
 }
 
 .colorlinks12:hover {
-    color: #f66608;
+  color: #f66608;
 }

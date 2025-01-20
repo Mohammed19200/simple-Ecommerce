@@ -6,12 +6,15 @@ import { toast } from "react-toastify";
 export default function RemoveAllBtn() {
   const [cartData, setCartData] = useRecoilState($cartAtom);
 
-  function removeAllProducts(){
+  function removeAllProducts() {
     setCartData([]);
-    localStorage.removeItem('CartDataOrder')
-    toast.success("All products has been removed from your Cart")
+    localStorage.removeItem("CartDataOrder");
+    toast.success("All products has been removed from your Cart");
   }
 
-  return <span className="remove-alll-products" onClick={removeAllProducts}>Remove All</span>;
-}    
-
+  return (
+    <span className="remove-alll-products" onClick={removeAllProducts}>
+      Remove All
+    </span>
+  );
+}

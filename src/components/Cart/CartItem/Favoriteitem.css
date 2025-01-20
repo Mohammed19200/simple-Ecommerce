@@ -1,143 +1,141 @@
 .Favoriteitemdiv2 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
 .bigFavoriteitemdiv {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    padding: 1rem 0rem;
-    gap: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 1rem 0rem;
+  gap: 1rem;
 }
 
 .imgfavorite {
-    border-radius: 1rem;
+  border-radius: 1rem;
 }
 
-
 .Favoriteitemdiv11 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
 .h1Favoriteitemdiv1 {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .spanFavoriteitemdiv1 {
-    font-size: 1.2rem;
-    font-weight: 400;
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 
 .colorlinksfavorite {
-    color: #333 !important;
-    font-size: 0.8rem;
-    font-weight: 400;
+  color: #333 !important;
+  font-size: 0.8rem;
+  font-weight: 400;
 }
 
 .remove-alll-products {
-    border-bottom: 1px solid red;
-    color: red;
-    font-size: 0.9rem;
-    cursor: pointer;
+  border-bottom: 1px solid red;
+  color: red;
+  font-size: 0.9rem;
+  cursor: pointer;
 }
 
 .ShoppingCartstyle {
-    font-size: 1rem;
-    font-weight: 400;
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 .cart-headerr {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-between;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .price-contt {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .price-conttt {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 1rem 0rem;
-    gap: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem 0rem;
+  gap: 2rem;
 }
 
-
 .price-contt1 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    gap: 5rem;
-    padding: 0.5rem 0rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  padding: 0.5rem 0rem;
 }
 
 .price-contt111 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 0.5rem;
-    padding: 0.5rem 0rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.5rem;
+  padding: 0.5rem 0rem;
 }
 
 .CartItemimgh5 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .quantityy {
-    color: #f66708d5 !important;
-    font-size: 0.8rem;
+  color: #f66708d5 !important;
+  font-size: 0.8rem;
 }
 
 .h1Cartitemdivv {
-    font-size: 0.8rem;
-    color: #333;
+  font-size: 0.8rem;
+  color: #333;
 }
 
 .Favoriteitemdiv1 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    gap: 0.5rem;
-    justify-content: center !important;
-    align-items: center !important;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 0.5rem;
+  justify-content: center !important;
+  align-items: center !important;
 }

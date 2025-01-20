@@ -13,10 +13,14 @@ export default function RemoveBtnFavorite({ id }) {
     if (!auth.isAuth) {
       navigate("/login");
     } else {
-      setCartData(cartData.filter(product => product.id !== id));
-      toast.success("This product has been removed from your favorite")
+      setCartData(cartData.filter((product) => product.id !== id));
+      toast.success("This product has been removed from your favorite");
     }
   }
 
-  return <span className="remove-button-cart" onClick={removeProduct}>Remove</span>;
+  return (
+    <span className="remove-button-cart" onClick={removeProduct}>
+      Remove
+    </span>
+  );
 }

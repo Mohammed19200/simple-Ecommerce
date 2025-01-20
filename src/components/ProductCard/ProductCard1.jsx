@@ -9,7 +9,7 @@ import { $FavoriteAtom } from "../../atoms/FavoriteAtom";
 import { useNavigate } from "react-router-dom";
 import RemoveBtnFavorite2 from "../Cart/CartItem/components/RemoveBtnFavorite2";
 import IncrementBtn1 from "../Cart/CartItem/components/IncrementBtnFavorite";
-import RemoveBtn22 from '../Cart/CartItem/components/RemoveBtn22';
+import RemoveBtn22 from "../Cart/CartItem/components/RemoveBtn22";
 import AddToCartBtn1 from "./components/AddToCartBtn/AddToCartBtn1";
 
 export default function ProductCard1({ product }) {
@@ -18,7 +18,9 @@ export default function ProductCard1({ product }) {
   const isInCart = cartData.find((ele) => ele.id === product.id);
   const isInFavorite = FavoriteData.find((elem) => elem.id === product.id);
   let navigate = useNavigate();
-  function SingleProduct() {navigate(`/product/${product.id}`);}
+  function SingleProduct() {
+    navigate(`/product/${product.id}`);
+  }
   return (
     <Card className="h-100">
       <Card.Img
@@ -28,11 +30,18 @@ export default function ProductCard1({ product }) {
         onClick={SingleProduct}
       />
       <Card.Body className="d-flex flex-column">
-        <Card.Title className="cardelproductcard" onClick={SingleProduct} >
-          <Link className="text-decoration-none colorlinklink" to={`/product/${product.id}`}>{product.title.split(" ").splice(0, 2).join(" ")}</Link>
+        <Card.Title className="cardelproductcard" onClick={SingleProduct}>
+          <Link
+            className="text-decoration-none colorlinklink"
+            to={`/product/${product.id}`}
+          >
+            {product.title.split(" ").splice(0, 2).join(" ")}
+          </Link>
         </Card.Title>
         <div>
-          <Card.Text onClick={SingleProduct} className="cardelproductcard">${product.price}</Card.Text>
+          <Card.Text onClick={SingleProduct} className="cardelproductcard">
+            ${product.price}
+          </Card.Text>
 
           <div className="twoobuttonaddto col-12">
             {isInCart ? (
@@ -40,7 +49,7 @@ export default function ProductCard1({ product }) {
                 <button className="addtocartbtnnb">
                   <div className="incrdecrstyles">
                     <IncrementBtn1 id={product.id} />
-                    <RemoveBtn22 id={product.id}/>
+                    <RemoveBtn22 id={product.id} />
                   </div>
                 </button>
               </div>
@@ -48,11 +57,12 @@ export default function ProductCard1({ product }) {
               <AddToCartBtn1 product={product} />
             )}
             {isInFavorite ? (
-              <button className="addtoFavoritebtn"><RemoveBtnFavorite2 id={product.id} /></button>
+              <button className="addtoFavoritebtn">
+                <RemoveBtnFavorite2 id={product.id} />
+              </button>
             ) : (
               <AddToFavoriteBtn product={product} />
             )}
-
           </div>
         </div>
       </Card.Body>

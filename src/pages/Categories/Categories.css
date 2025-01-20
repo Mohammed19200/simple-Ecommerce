@@ -1,144 +1,144 @@
 .biiigestddivs {
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    align-items: center;
-    gap: 1rem;
-    justify-content: center;
-    padding: 2rem 0rem;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  padding: 2rem 0rem;
 }
 
 .Smartphones {
-    background-image: url('../../assets/catsmartphone.webp');
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 6.2rem;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    border-radius: 1.5rem;
+  background-image: url("../../assets/catsmartphone.webp");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 6.2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
 }
 
 .sunglasses {
-    background-image: url('../../assets/catSunglasses.png');
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 6.2rem;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    border-radius: 1.5rem;
+  background-image: url("../../assets/catSunglasses.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 6.2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
 }
 
 .Motorcycle {
-    background-image: url('../../assets/Motorcyclecat.jfif');
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 6.2rem;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    border-radius: 1.5rem;
+  background-image: url("../../assets/Motorcyclecat.jfif");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 6.2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
 }
 
 .lighting {
-    background-image: url('../../assets/Lightingcat.jpg');
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 8.2rem;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    border-radius: 1.5rem;
+  background-image: url("../../assets/Lightingcat.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 8.2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
 }
 
 .fragrances {
-    background-image: url('../../assets/Fragrancescat.jfif');
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 6.2rem;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    border-radius: 1.5rem;
+  background-image: url("../../assets/Fragrancescat.jfif");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 6.2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
 }
 
 .laptops {
-    background-image: url('../../assets/catlapt.jpg');
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 6.2rem;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    border-radius: 1.5rem;
+  background-image: url("../../assets/catlapt.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 6.2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
 }
 
 .categoriybutton {
-    outline: 0;
-    border: 0;
-    padding: 1rem;
-    border-radius: 1.5rem;
-    background-color: #f66708db;
-    color: #333;
+  outline: 0;
+  border: 0;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  background-color: #f66708db;
+  color: #333;
 }
 
 .categoriybutton:hover {
-    background-color: #f6f6f6c9;
+  background-color: #f6f6f6c9;
 }
 
 .h1catigory {
-    color: #333;
-    text-align: center;
-    font-size: 1.7rem;
-    font-weight: 500;
+  color: #333;
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: 500;
 }
 
 .secanddivcategories {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .buttonallcategoriy {
-    outline: 0;
-    border: 0;
-    padding: 1rem 3rem;
-    border-radius: 1.5rem;
-    background-color: #f66708;
-    color: white;
+  outline: 0;
+  border: 0;
+  padding: 1rem 3rem;
+  border-radius: 1.5rem;
+  background-color: #f66708;
+  color: white;
 }
 
 .buttonallcategoriy:hover {
-    background-color: #333;
+  background-color: #333;
 }
 
 .linkbtnallcategoriy {
-    color: white !important;
+  color: white !important;
 }
 
 .thebiggestdivvategoriy {
-    padding: 2rem 0rem;
+  padding: 2rem 0rem;
 }

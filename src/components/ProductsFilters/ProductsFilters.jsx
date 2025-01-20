@@ -18,7 +18,7 @@ export default function ProductsFilters({ setFilterQuery }) {
       setCategories(data.data);
     });
   }, []);
-  
+
   function changeInputValue(e) {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   }
@@ -30,7 +30,7 @@ export default function ProductsFilters({ setFilterQuery }) {
     setFilterQuery(query);
   }
   return (
-    <div id="filters" >
+    <div id="filters">
       <form className="formss" onSubmit={filterProducts}>
         <input
           className="filter__input"

@@ -37,215 +37,99 @@ import Categories from "./pages/Categories/Categories";
 import Favorite from "./pages/Favourite/Favorite";
 import CHECKOUT from "./pages/CHECKOUT/CHECKOUT";
 import Profile from "./pages/Profile/Profile";
-import './App.css'
+import "./App.css";
 
 function App() {
-
   return (
     <>
- <div className="App">
-      <RecoilRoot>
-        <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<MainLayout />}>
-              <Route index element={<Home />} />
-              <Route path="shop" element={<Shop />} />
-              <Route
-                path="cart"
-                element={
-                  <IsLoggedIn>
-                    <Cart />
-                  </IsLoggedIn>
-                }
-              />
-              <Route
-                path="Favorite"
-                element={
-                  <IsLoggedIn>
-                    <Favorite />
-                  </IsLoggedIn>
-                }
-              />
-              <Route path="product/:id" element={<SingleProduct />} />
-              <Route
-                path="login"
-                element={
-                  <IsNotLoggedIn>
-                    <Login />
-                  </IsNotLoggedIn>
-                }
-              />
-              <Route
-                path="register"
-                element={
-                  <IsNotLoggedIn>
-                    <Register />
-                  </IsNotLoggedIn>
-                }
-              />
-              <Route
-                path="*"
-                element={
-                  <Error404 />
-                }
-              />
-              <Route
-                path="Contactus"
-                element={
-                  <Contactus />
-                }
-              />
-              <Route
-                path="faq"
-                element={
-                  <Faq />
-                }
-              />
-              <Route
-                path="Aboutus"
-                element={
-                  <Aboutus />
-                }
-              />
+      <div className="App">
+        <RecoilRoot>
+          <BrowserRouter>
+            <Routes>
+              <Route path="/" element={<MainLayout />}>
+                <Route index element={<Home />} />
+                <Route path="shop" element={<Shop />} />
+                <Route
+                  path="cart"
+                  element={
+                    <IsLoggedIn>
+                      <Cart />
+                    </IsLoggedIn>
+                  }
+                />
+                <Route
+                  path="Favorite"
+                  element={
+                    <IsLoggedIn>
+                      <Favorite />
+                    </IsLoggedIn>
+                  }
+                />
+                <Route path="product/:id" element={<SingleProduct />} />
+                <Route
+                  path="login"
+                  element={
+                    <IsNotLoggedIn>
+                      <Login />
+                    </IsNotLoggedIn>
+                  }
+                />
+                <Route
+                  path="register"
+                  element={
+                    <IsNotLoggedIn>
+                      <Register />
+                    </IsNotLoggedIn>
+                  }
+                />
+                <Route path="*" element={<Error404 />} />
+                <Route path="Contactus" element={<Contactus />} />
+                <Route path="faq" element={<Faq />} />
+                <Route path="Aboutus" element={<Aboutus />} />
 
-              <Route
-                path="Smartphones"
-                element={
-                  <Smartphones />
-                }
-              />
-              <Route
-                path="tops"
-                element={
-                  <Tops />
-                }
-              />
-              <Route
-                path="womensdresses"
-                element={
-                  <Womensdresses />
-                }
-              />
-              <Route
-                path="mensshirts"
-                element={
-                  <Mensshirts />
-                }
-              />
-              <Route
-                path="womenswatches"
-                element={
-                  <Womenswatches />
-                }
-              />
-              <Route
-                path="womensbags"
-                element={
-                  <Womensbags />
-                }
-              />
-              <Route
-                path="womensjewellery"
-                element={
-                  <Womensjewellery />
-                }
-              />
-              <Route
-                path="sunglasses"
-                element={
-                  <Sunglasses />
-                }
-              />
-              <Route
-                path="automotive"
-                element={
-                  <Automotive />
-                }
-              />
-              <Route
-                path="motorcycle"
-                element={
-                  <Motorcycle />
-                }
-              />
-              <Route
-                path="lighting"
-                element={
-                  <Lighting />
-                }
-              />
-              <Route
-                path="homedecoration"
-                element={
-                  <Homedecoration />
-                }
-              />
-              <Route
-                path="groceries"
-                element={
-                  <Groceries />
-                }
-              />
-              <Route
-                path="skincare"
-                element={
-                  <Skincare />
-                }
-              />
-              <Route
-                path="fragrances"
-                element={
-                  <Fragrances />
-                }
-              />
-              <Route
-                path="laptops"
-                element={
-                  <Laptops />
-                }
-              />
-              <Route
-                path="womensshoes"
-                element={
-                  <Womensshoes />
-                }
-              />
-              <Route
-                path="allCategories"
-                element={
-                  <AllCategories />
-                }
-              />
-              <Route
-                path="Categories"
-                element={
-                  <Categories />
-                }
-              />
-              <Route
-                path="checkout"
-                element={
-                  <IsLoggedIn>
-                    <CHECKOUT />
-                  </IsLoggedIn>
-                }
-              />
-              <Route
-                path="order"
-                element={
-                  <IsLoggedIn>
-                    <Profile />
-                  </IsLoggedIn>
-                }
-              />
-            </Route>
-          </Routes>
-        </BrowserRouter>
-      </RecoilRoot>
-      <ToastContainer />
-    </div>
+                <Route path="Smartphones" element={<Smartphones />} />
+                <Route path="tops" element={<Tops />} />
+                <Route path="womensdresses" element={<Womensdresses />} />
+                <Route path="mensshirts" element={<Mensshirts />} />
+                <Route path="womenswatches" element={<Womenswatches />} />
+                <Route path="womensbags" element={<Womensbags />} />
+                <Route path="womensjewellery" element={<Womensjewellery />} />
+                <Route path="sunglasses" element={<Sunglasses />} />
+                <Route path="automotive" element={<Automotive />} />
+                <Route path="motorcycle" element={<Motorcycle />} />
+                <Route path="lighting" element={<Lighting />} />
+                <Route path="homedecoration" element={<Homedecoration />} />
+                <Route path="groceries" element={<Groceries />} />
+                <Route path="skincare" element={<Skincare />} />
+                <Route path="fragrances" element={<Fragrances />} />
+                <Route path="laptops" element={<Laptops />} />
+                <Route path="womensshoes" element={<Womensshoes />} />
+                <Route path="allCategories" element={<AllCategories />} />
+                <Route path="Categories" element={<Categories />} />
+                <Route
+                  path="checkout"
+                  element={
+                    <IsLoggedIn>
+                      <CHECKOUT />
+                    </IsLoggedIn>
+                  }
+                />
+                <Route
+                  path="order"
+                  element={
+                    <IsLoggedIn>
+                      <Profile />
+                    </IsLoggedIn>
+                  }
+                />
+              </Route>
+            </Routes>
+          </BrowserRouter>
+        </RecoilRoot>
+        <ToastContainer />
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

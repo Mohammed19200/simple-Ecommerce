@@ -58,11 +58,10 @@
   -o-border-radius: 0.5rem;
 }
 
-
 .addtocartbtnnb:hover {
   background-color: #333333c0;
 }
-.incrdecrstyles{
+.incrdecrstyles {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -84,6 +83,6 @@
 .addtocartbtn:hover {
   background-color: #333333c0;
 }
-.cardelproductcard{
+.cardelproductcard {
   cursor: pointer;
 }

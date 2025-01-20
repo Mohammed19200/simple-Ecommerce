@@ -1,261 +1,258 @@
 .bigestdiv {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    gap: 1.5rem;
-    padding: 2rem 0rem;
-    background-color: #fafafa;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2rem 0rem;
+  background-color: #fafafa;
 }
 
 .imgbigestdiv {
-    border-radius: 1.5rem;
-    object-fit: contain;
-    width: 30rem;
+  border-radius: 1.5rem;
+  object-fit: contain;
+  width: 30rem;
 }
 
 .h1bigestdiv {
-    font-size: 28px;
-    line-height: 1.25;
-    font-weight: 400;
-    font-style: normal;
-    color: #333;
+  font-size: 28px;
+  line-height: 1.25;
+  font-weight: 400;
+  font-style: normal;
+  color: #333;
 }
 
 .h2bigestdiv {
-    font-size: 18px;
-    line-height: 28px;
-    font-weight: 700;
-    color: #333;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #333;
 }
 
 .h3bigestdiv {
-    font-weight: 300;
-    font-size: 1.3rem;
-    color: #929292;
+  font-weight: 300;
+  font-size: 1.3rem;
+  color: #929292;
 }
 
 .h5bigestdiv {
-    font-size: 1.1rem;
-    color: #f66608;
+  font-size: 1.1rem;
+  color: #f66608;
 }
 
 .secandbigestdiv {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.2rem;
 }
 
 .addtoocartbtnnnSingleProduct {
-    outline: 0;
-    border: 0;
-    padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
-    background-color: #f66608;
-    color: white;
-    -webkit-border-radius: 0.5rem;
-    -moz-border-radius: 0.5rem;
-    -ms-border-radius: 0.5rem;
-    -o-border-radius: 0.5rem;
+  outline: 0;
+  border: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: #f66608;
+  color: white;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
 }
 
 .addtoocartbtnnnSingleProduct:hover {
-    background-color: #333333c0;
-  }
+  background-color: #333333c0;
+}
 
 .sllliderstyle {
-    margin: auto;
-    padding: 2rem 0rem;
+  margin: auto;
+  padding: 2rem 0rem;
 }
 
 .divAlreadyincart {
-    background-color: #f66708b4;
-    padding: 0.5rem 0.8rem;
-    border-radius: 1rem;
-    font-size: 1rem;
-    text-align: left;
-    font-weight: 500;
-    color: #33333370;
+  background-color: #f66708b4;
+  padding: 0.5rem 0.8rem;
+  border-radius: 1rem;
+  font-size: 1rem;
+  text-align: left;
+  font-weight: 500;
+  color: #33333370;
 }
 
 .twobuttonadd {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 1rem;
-    padding: 0.5rem 0rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem 0rem;
 }
 
 .divAlreadyinfavorite {
-    text-align: center;
+  text-align: center;
 }
 
 .iconproductcarrddivvv {
-    height: 3rem;
-    width: 3rem;
-    border-radius: 50%;
-    background-color: #333;
-    padding: 0.8rem 0rem;
-    margin: auto;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  background-color: #333;
+  padding: 0.8rem 0rem;
+  margin: auto;
 }
 
 .divsinglepageimg {
-    background-color: #f3f3f3;
-    padding: 1rem;
-    border-radius: 2rem;
+  background-color: #f3f3f3;
+  padding: 1rem;
+  border-radius: 2rem;
 }
 
 .bigestsinglepagge {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .h33bigestdiv {
-    color: #333;
-    font-size: 0.9rem;
-    font-weight: 500;
+  color: #333;
+  font-size: 0.9rem;
+  font-weight: 500;
 }
 
 .h333bigestdiv {
-    color: #929292;
-    font-size: 0.9rem;
-    font-weight: 400;
+  color: #929292;
+  font-size: 0.9rem;
+  font-weight: 400;
 }
 
-@media screen and (min-width:280px) {
-    .imgbigestdiv {
-        border-radius: 1.5rem;
-        object-fit: contain;
-        width: 16rem;
-    }
-    .addtoocartbtnnn {
-        outline: 0;
-        border: 0;
-        padding: 0.7rem 2.95rem;
-        border-radius: 1rem;
-        background-color: #f66608;
-        color: white;
-    }
+@media screen and (min-width: 280px) {
+  .imgbigestdiv {
+    border-radius: 1.5rem;
+    object-fit: contain;
+    width: 16rem;
+  }
+  .addtoocartbtnnn {
+    outline: 0;
+    border: 0;
+    padding: 0.7rem 2.95rem;
+    border-radius: 1rem;
+    background-color: #f66608;
+    color: white;
+  }
 }
 
-@media screen and (min-width:374px) {
-    .imgbigestdiv {
-        border-radius: 1.5rem;
-        object-fit: contain;
-        width: 19rem;
-    }
-    .addtoocartbtnnn {
-        outline: 0;
-        border: 0;
-        padding: 0.7rem 4.02rem;
-        border-radius: 1rem;
-        background-color: #f66608;
-        color: white;
-    }
+@media screen and (min-width: 374px) {
+  .imgbigestdiv {
+    border-radius: 1.5rem;
+    object-fit: contain;
+    width: 19rem;
+  }
+  .addtoocartbtnnn {
+    outline: 0;
+    border: 0;
+    padding: 0.7rem 4.02rem;
+    border-radius: 1rem;
+    background-color: #f66608;
+    color: white;
+  }
 }
 
-@media screen and (min-width:424px) {
-    .imgbigestdiv {
-        border-radius: 1.5rem;
-        object-fit: contain;
-        width: 22rem;
-    }
-    .addtoocartbtnnn {
-        outline: 0;
-        border: 0;
-        padding: 0.7rem 4.94rem;
-        border-radius: 1rem;
-        background-color: #f66608;
-        color: white;
-    }
+@media screen and (min-width: 424px) {
+  .imgbigestdiv {
+    border-radius: 1.5rem;
+    object-fit: contain;
+    width: 22rem;
+  }
+  .addtoocartbtnnn {
+    outline: 0;
+    border: 0;
+    padding: 0.7rem 4.94rem;
+    border-radius: 1rem;
+    background-color: #f66608;
+    color: white;
+  }
 }
 
-@media screen and (min-width:767px) {
-    .imgbigestdiv {
-        border-radius: 1.5rem;
-        object-fit: contain;
-        width: 24rem;
-    }
-    .addtoocartbtnnn {
-        outline: 0;
-        border: 0;
-        padding: 0.7rem 3.9rem;
-        border-radius: 1rem;
-        background-color: #f66608;
-        color: white;
-    }
+@media screen and (min-width: 767px) {
+  .imgbigestdiv {
+    border-radius: 1.5rem;
+    object-fit: contain;
+    width: 24rem;
+  }
+  .addtoocartbtnnn {
+    outline: 0;
+    border: 0;
+    padding: 0.7rem 3.9rem;
+    border-radius: 1rem;
+    background-color: #f66608;
+    color: white;
+  }
 }
 
-@media screen and (min-width:1023px) {
-    .imgbigestdiv {
-        border-radius: 1.5rem;
-        object-fit: contain;
-        width: 29rem;
-    }
-    .addtoocartbtnnn {
+@media screen and (min-width: 1023px) {
+  .imgbigestdiv {
+    border-radius: 1.5rem;
+    object-fit: contain;
+    width: 29rem;
+  }
+  .addtoocartbtnnn {
     outline: 0;
     border: 0;
     padding: 0.7rem 3.22rem;
     border-radius: 1rem;
     background-color: #f66608;
     color: white;
-}
-}
-
-@media screen and (min-width:1439px) {
-    .imgbigestdiv {
-        border-radius: 1.5rem;
-        object-fit: contain;
-        width: 29rem;
-    }
-    .addtoocartbtnnn {
-        outline: 0;
-        border: 0;
-        padding: 0.7rem 3.47rem;
-        border-radius: 1rem;
-        background-color: #f66608;
-        color: white;
-    }
+  }
 }
 
-@media screen and (min-width:1500px) {
-    .imgbigestdiv {
-        border-radius: 1.5rem;
-        object-fit: contain;
-        width: 29rem;
-    }
-    .addtoocartbtnnn {
-        outline: 0;
-        border: 0;
-        padding: 0.7rem 4.4rem;
-        border-radius: 1rem;
-        background-color: #f66608;
-        color: white;
-    }
+@media screen and (min-width: 1439px) {
+  .imgbigestdiv {
+    border-radius: 1.5rem;
+    object-fit: contain;
+    width: 29rem;
+  }
+  .addtoocartbtnnn {
+    outline: 0;
+    border: 0;
+    padding: 0.7rem 3.47rem;
+    border-radius: 1rem;
+    background-color: #f66608;
+    color: white;
+  }
 }
 
-@media screen and (min-width:2000px) {
-    .imgbigestdiv {
-        border-radius: 1.5rem;
-        object-fit: contain;
-        width: 29rem;
-    }
-    .addtoocartbtnnn {
-        outline: 0;
-        border: 0;
-        padding: 0.7rem 8.85rem;
-        border-radius: 1rem;
-        background-color: #f66608;
-        color: white;
-    }
+@media screen and (min-width: 1500px) {
+  .imgbigestdiv {
+    border-radius: 1.5rem;
+    object-fit: contain;
+    width: 29rem;
+  }
+  .addtoocartbtnnn {
+    outline: 0;
+    border: 0;
+    padding: 0.7rem 4.4rem;
+    border-radius: 1rem;
+    background-color: #f66608;
+    color: white;
+  }
 }
 
-
-
+@media screen and (min-width: 2000px) {
+  .imgbigestdiv {
+    border-radius: 1.5rem;
+    object-fit: contain;
+    width: 29rem;
+  }
+  .addtoocartbtnnn {
+    outline: 0;
+    border: 0;
+    padding: 0.7rem 8.85rem;
+    border-radius: 1rem;
+    background-color: #f66608;
+    color: white;
+  }
+}

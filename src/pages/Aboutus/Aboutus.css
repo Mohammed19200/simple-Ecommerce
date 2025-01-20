@@ -1,93 +1,91 @@
 .bigdiv {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: auto;
-    gap: 1rem;
-    padding: 2rem 0rem;
-    align-content: center;
-    flex-wrap: wrap;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  gap: 1rem;
+  padding: 2rem 0rem;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .titlebigdiv {
-    font-weight: 500;
-    font-style: normal;
-    font-size: 1.5rem;
-    color: #333;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: #333;
 }
 
 .pargbigdiv {
-    font-weight: 400;
-    font-style: normal;
-    color: #333;
-    font-size: 1rem
+  font-weight: 400;
+  font-style: normal;
+  color: #333;
+  font-size: 1rem;
 }
 
-
-
 .h5ulbigdiv {
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1rem;
-    color: #333;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  color: #333;
 }
 
 .liulbigdiv {
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1rem;
-    color: #333;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  color: #333;
 }
 
 .imgbigdiv {
-    border-radius: 1.5rem;
-    object-fit: cover;
+  border-radius: 1.5rem;
+  object-fit: cover;
 }
 
 .secandbigdiv {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    padding: 2rem 0rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 2rem 0rem;
 }
 
 .secandbigdiv1 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
 .titleteam {
-    font-size: 2rem;
-    line-height: 64px;
-    font-weight: 500;
-    font-style: normal;
-    color: #333;
-    text-align: center;
+  font-size: 2rem;
+  line-height: 64px;
+  font-weight: 500;
+  font-style: normal;
+  color: #333;
+  text-align: center;
 }
 
-.imagestyle{
-    border-radius: 1.5rem;
-    object-fit: cover;
+.imagestyle {
+  border-radius: 1.5rem;
+  object-fit: cover;
 }
 
-.div3{
-    font-weight: 300;
-    font-style: normal;
-    font-size: 1.6rem;
-    line-height: 38px;
-    color: #333;
-    background-color: #f5f5f5;
-    text-align: center;
-    padding: 4rem 0rem;
-    margin-bottom: 1rem;
+.div3 {
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 38px;
+  color: #333;
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 4rem 0rem;
+  margin-bottom: 1rem;
 }

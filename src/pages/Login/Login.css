@@ -10,7 +10,6 @@
   align-content: center;
   justify-content: center;
   align-items: center;
-  
 }
 
 .input-group {
@@ -26,7 +25,7 @@
 }
 
 .biiiigdivv {
-  background-image: url('../../assets/lobinbackground.jpg');
+  background-image: url("../../assets/lobinbackground.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -70,6 +69,6 @@
 .buttonlogin:hover {
   background-color: #333;
 }
-.loginbigdivform{
+.loginbigdivform {
   margin: auto;
 }

@@ -1,15 +1,14 @@
-
-.favorite-cont{
-    max-width: 900px;
-    box-shadow: 0 0 10px 0 rgba(0 0 0 / .3);
-    padding: 30px 40px;
-    border-radius: 20px;
-    margin: auto;
+.favorite-cont {
+  max-width: 900px;
+  box-shadow: 0 0 10px 0 rgba(0 0 0 / 0.3);
+  padding: 30px 40px;
+  border-radius: 20px;
+  margin: auto;
 }
-.favoritelargestdiv{
-    display: flex;
+.favoritelargestdiv {
+  display: flex;
 }
-.favorite-contbigest{
-    padding: 2rem 0rem;
-    margin: auto;
+.favorite-contbigest {
+  padding: 2rem 0rem;
+  margin: auto;
 }
