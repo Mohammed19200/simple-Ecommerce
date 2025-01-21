@@ -15,6 +15,7 @@ import { authData } from "../../atoms/authAtom";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { FaCartPlus } from "react-icons/fa";
+import { FaStar } from "react-icons/fa";
 
 export default function SingleProduct() {
   const [auth] = useRecoilState(authData);
@@ -66,10 +67,11 @@ export default function SingleProduct() {
           <h2 className="h2bigestdiv">{product.price}$</h2>
           <h3 className="h3bigestdiv">{product.description}</h3>
           <h5 className="h5bigestdiv">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
+            <FaStar />
+            <FaStar />
+            <FaStar />
+            <FaStar />
+            <FaStar />
             <i class="fa-regular fa-star-half-stroke"></i> {product.rating}
           </h5>
 

@@ -1,6 +1,6 @@
 .product__card__img {
   height: 266px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .colorlinklink {

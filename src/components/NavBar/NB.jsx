@@ -8,7 +8,7 @@ export default function NB() {
   const [auth] = useRecoilState(authData);
   return (
     <div
-      className="col-12 NBstylebackground wow animate__animated animate__fadeInDown animate__slow"
+      className="col-12 NBstylebackground"
       data-wow-delay="0.8s"
     >
       <div class="container">

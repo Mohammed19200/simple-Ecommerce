@@ -16,6 +16,8 @@ export default function Home() {
   useEffect(() => {
     setIsLoading(true);
     axios("http://localhost:3004/products").then((data) => {
+      console.log(data.data);
+      
       setProducts(data.data);
       setIsLoading(false);
     });
@@ -44,7 +46,7 @@ export default function Home() {
       >
         <ProductsSection
           title="Today's hot deals"
-          products={products.slice(0, 10)}
+          products={products.slice(0, 30)}
         />
       </div>
 
@@ -54,7 +56,7 @@ export default function Home() {
       >
         <ProductsSection
           title="Special Offer Items"
-          products={products.slice(10, 20)}
+          products={products.slice(30, 60)}
         />
       </div>
 
@@ -64,7 +66,7 @@ export default function Home() {
       >
         <ProductsSection
           title="New Products"
-          products={products.slice(75, 85)}
+          products={products.slice(60, 90)}
         />
       </div>
 

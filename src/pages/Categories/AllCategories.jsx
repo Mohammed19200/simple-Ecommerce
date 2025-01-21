@@ -51,7 +51,7 @@ export default function AllCategories() {
             }}
             className="categoriybutton"
           >
-            Lighting
+            eauty
           </button>{" "}
         </div>
         <div className="fragrances col-10 col-md-5 col-lg-3">
@@ -139,8 +139,7 @@ export default function AllCategories() {
               navigate("/skincare");
             }}
             className="categoriybutton"
-          ></button>
-          Skincare
+          >Skincare</button>
         </div>
         <div className="Womensshoes col-10 col-md-5 col-lg-3 ">
           {" "}

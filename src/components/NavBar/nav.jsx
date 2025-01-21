@@ -13,7 +13,7 @@ export default function Nav() {
 
   return (
     <div
-      className="col-12 navbootstrapstyle wow animate__animated animate__fadeInDown animate__slow "
+      className="col-12 navbootstrapstyle "
       data-wow-delay="0.8s"
     >
       <div className="col-12 navbootstyle11">

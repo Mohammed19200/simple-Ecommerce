@@ -4,7 +4,7 @@ import ProductCard1 from "../../components/ProductCard/ProductCard1";
 export default function Lighting() {
   const [products, setProducts] = useState([]);
   useEffect(() => {
-    axios("http://localhost:3004/products?category=lighting").then((data) => {
+    axios("http://localhost:3004/products?category=beauty").then((data) => {
       setProducts(data.data);
     });
   }, []);
