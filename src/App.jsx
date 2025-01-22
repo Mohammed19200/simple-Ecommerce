@@ -22,7 +22,6 @@ import CHECKOUT from "./pages/CHECKOUT/CHECKOUT";
 import Profile from "./pages/Profile/Profile";
 import "./App.css";
 import Tops from "./pages/Categories/Categories-Item/Tops";
-import WomensDresses from "./pages/Categories/Categories-Item/womens-dresses";
 import MensShirts from "./pages/Categories/Categories-Item/mens-shirts";
 import WomensWatches from "./pages/Categories/Categories-Item/womens-watches";
 import WomensBags from "./pages/Categories/Categories-Item/womens-bags";
@@ -45,6 +44,7 @@ import Furniture from "./pages/Categories/Categories-Item/furniture";
 import MensShoes from "./pages/Categories/Categories-Item/mens-shoes";
 import MensWatches from "./pages/Categories/Categories-Item/mens-watches";
 import SmartPhones from "./pages/Categories/Categories-Item/Smartphones";
+import WomensDresses from "./pages/Categories/Categories-Item/womens-dresses";
 
 function App() {
   return (
