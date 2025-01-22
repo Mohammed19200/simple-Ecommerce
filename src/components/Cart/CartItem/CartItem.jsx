@@ -14,12 +14,12 @@ export default function CartItem({ product }) {
             src={product.thumbnail}
             alt=""
           />
-          <h5 className="h1Cartitemdiv col-4">
+          <h5 className="h1Cartitemdiv col-6">
             <Link
               className="text-decoration-none colorlinklink"
               to={`/product/${product.id}`}
             >
-              {product.title}
+              {product.title.split(" ").splice(0, 2).join(" ")}
             </Link>
           </h5>
         </div>

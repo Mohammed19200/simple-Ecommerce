@@ -20,7 +20,7 @@ export default function ProductsSection({ title, products }) {
         }}>
           {products.map((product) => {
             return (
-              <SwiperSlide className="h-auto">
+              <SwiperSlide key={product.id} className="h-auto">
                 <ProductCard product={product} />
               </SwiperSlide>
             );

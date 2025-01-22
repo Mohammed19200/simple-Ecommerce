@@ -23,7 +23,7 @@ export default function Favoriteitem({ product }) {
               className="text-decoration-none colorlinksfavorite"
               to={`/product/${product.id}`}
             >
-              {product.title}
+              {product.title.split(" ").splice(0, 2).join(" ")}
             </Link>
           </h1>
           <span className=" spanFavoriteitemdiv1">${product.price}</span>
