@@ -5,12 +5,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start-server": "concurrently \"npx json-server --watch ./src/data/db.json --port 3004\" \"npm run dev\" \"npm run build\"",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "npm-run-all --sequential start-server"
   },
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.8",
@@ -43,11 +45,13 @@
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
     "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^9.1.2",
     "eslint": "^9.17.0",
     "eslint-plugin-react": "^7.37.2",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.16",
     "globals": "^15.14.0",
+    "npm-run-all": "^4.1.5",
     "vite": "^6.0.5"
   }
 }
