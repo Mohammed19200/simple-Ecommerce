@@ -12,12 +12,12 @@ export default function Favoriteitem({ product }) {
     <div className="bigFavoriteitemdiv col-12">
       <div className=" Favoriteitemdiv11 col-10 col-md-5">
         <img
-          className="imgfavorite col-12 col-md-5"
+          className="imgfavorite col-12 col-sm-3 col-md-5"
           src={product.thumbnail}
           alt=""
         />
 
-        <div className="Favoriteitemdiv1 col-12 col-md-6">
+        <div className="Favoriteitemdiv1 col-12 col-sm-3 col-md-6">
           <h1 className="h1Favoriteitemdiv1">
             <Link
               className="text-decoration-none colorlinksfavorite"
@@ -30,7 +30,7 @@ export default function Favoriteitem({ product }) {
         </div>
       </div>
 
-      <div className="Favoriteitemdiv2 col-10 col-md-5">
+      <div className="Favoriteitemdiv2 col-10 col-sm-3 col-md-5">
         <RemoveBtnFavorite1 id={product.id} />
         {isInCart ? null : (
           <div className="">

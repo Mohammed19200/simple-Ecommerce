@@ -7,7 +7,6 @@ import { getFilterQuery } from "../../utils/getFilterQuery";
 export default function ProductsFilters({ setFilterQuery }) {
   const [categories, setCategories] = useState([]);
   const [formData, setFormData] = useState({
-    q: "",
     category: "",
     price_gte: "",
     price_lte: "",
@@ -32,14 +31,6 @@ export default function ProductsFilters({ setFilterQuery }) {
   return (
     <div id="filters">
       <form className="formss" onSubmit={filterProducts}>
-        <input
-          className="filter__input"
-          placeholder="Search..."
-          type="text"
-          name="q"
-          onChange={changeInputValue}
-          value={formData.q}
-        />
         <select
           className="filter__inputt"
           name="category"
@@ -83,7 +74,6 @@ export default function ProductsFilters({ setFilterQuery }) {
             onClick={() => {
               setFilterQuery("");
               setFormData({
-                q: "",
                 category: "",
                 price_gte: "",
                 price_lte: "",
