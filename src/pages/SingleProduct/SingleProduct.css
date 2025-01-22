@@ -40,6 +40,13 @@
 .h5bigestdiv {
   font-size: 1.1rem;
   color: #f66608;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 0.2rem;
 }
 
 .secandbigestdiv {

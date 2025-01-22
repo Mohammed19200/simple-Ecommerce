@@ -15,29 +15,36 @@ import Error404 from "./pages/Error404/Error404";
 import Contactus from "./pages/Contactus/Contactus";
 import Faq from "./pages/Faq/Faq";
 import Aboutus from "./pages/Aboutus/Aboutus";
-import Smartphones from "./pages/Categories/smartphones";
-import Tops from "./pages/Categories/tops";
-import Womensdresses from "./pages/Categories/womens-jewellery";
-import Mensshirts from "./pages/Categories/mens-shirts";
-import Womenswatches from "./pages/Categories/womens-watches";
-import Womensbags from "./pages/Categories/womens-bags";
-import Womensjewellery from "./pages/Categories/womens-jewellery";
-import Sunglasses from "./pages/Categories/sunglasses";
-import Automotive from "./pages/Categories/automotive";
-import Motorcycle from "./pages/Categories/motorcycle";
-import Lighting from "./pages/Categories/lighting";
-import Homedecoration from "./pages/Categories/home-decoration";
-import Groceries from "./pages/Categories/groceries";
-import Skincare from "./pages/Categories/skincare";
-import Fragrances from "./pages/Categories/fragrances";
-import Laptops from "./pages/Categories/laptops";
-import Womensshoes from "./pages/Categories/womens-shoes";
 import AllCategories from "./pages/Categories/AllCategories";
 import Categories from "./pages/Categories/Categories";
 import Favorite from "./pages/Favourite/Favorite";
 import CHECKOUT from "./pages/CHECKOUT/CHECKOUT";
 import Profile from "./pages/Profile/Profile";
 import "./App.css";
+import Tops from "./pages/Categories/Categories-Item/Tops";
+import WomensDresses from "./pages/Categories/Categories-Item/womens-dresses";
+import MensShirts from "./pages/Categories/Categories-Item/mens-shirts";
+import WomensWatches from "./pages/Categories/Categories-Item/womens-watches";
+import WomensBags from "./pages/Categories/Categories-Item/womens-bags";
+import WomensJewellery from "./pages/Categories/Categories-Item/womens-jewellery";
+import Sunglasses from "./pages/Categories/Categories-Item/Sunglasses";
+import Motorcycle from "./pages/Categories/Categories-Item/motorcycle";
+import Beauty from "./pages/Categories/Categories-Item/beauty";
+import HomeDecoration from "./pages/Categories/Categories-Item/home-decoration";
+import Groceries from "./pages/Categories/Categories-Item/Groceries";
+import Skincare from "./pages/Categories/Categories-Item/Skincare";
+import Fragrances from "./pages/Categories/Categories-Item/Fragrances";
+import Laptops from "./pages/Categories/Categories-Item/Laptops";
+import WomensShoes from "./pages/Categories/Categories-Item/womens-shoes";
+import Vehicle from "./pages/Categories/Categories-Item/vehicle";
+import Tablets from "./pages/Categories/Categories-Item/tablets";
+import SportsAccessories from "./pages/Categories/Categories-Item/sports-accessories";
+import MobileAccessories from "./pages/Categories/Categories-Item/mobile-accessories";
+import KitchenAccessories from "./pages/Categories/Categories-Item/kitchen-accessories";
+import Furniture from "./pages/Categories/Categories-Item/furniture";
+import MensShoes from "./pages/Categories/Categories-Item/mens-shoes";
+import MensWatches from "./pages/Categories/Categories-Item/mens-watches";
+import SmartPhones from "./pages/Categories/Categories-Item/Smartphones";
 
 function App() {
   return (
@@ -86,26 +93,41 @@ function App() {
                 <Route path="Contactus" element={<Contactus />} />
                 <Route path="faq" element={<Faq />} />
                 <Route path="Aboutus" element={<Aboutus />} />
-
-                <Route path="Smartphones" element={<Smartphones />} />
+                <Route path="Smartphones" element={<SmartPhones />} />
                 <Route path="tops" element={<Tops />} />
-                <Route path="womensdresses" element={<Womensdresses />} />
-                <Route path="mensshirts" element={<Mensshirts />} />
-                <Route path="womenswatches" element={<Womenswatches />} />
-                <Route path="womensbags" element={<Womensbags />} />
-                <Route path="womensjewellery" element={<Womensjewellery />} />
+                <Route path="womensdresses" element={<WomensDresses />} />
+                <Route path="mensshirts" element={<MensShirts />} />
+                <Route path="womenswatches" element={<WomensWatches />} />
+                <Route path="womensbags" element={<WomensBags />} />
+                <Route path="womensjewellery" element={<WomensJewellery />} />
                 <Route path="sunglasses" element={<Sunglasses />} />
-                <Route path="automotive" element={<Automotive />} />
                 <Route path="motorcycle" element={<Motorcycle />} />
-                <Route path="lighting" element={<Lighting />} />
-                <Route path="homedecoration" element={<Homedecoration />} />
+                <Route path="beauty" element={<Beauty />} />
+                <Route path="homedecoration" element={<HomeDecoration />} />
                 <Route path="groceries" element={<Groceries />} />
                 <Route path="skincare" element={<Skincare />} />
                 <Route path="fragrances" element={<Fragrances />} />
                 <Route path="laptops" element={<Laptops />} />
-                <Route path="womensshoes" element={<Womensshoes />} />
+                <Route path="womensshoes" element={<WomensShoes />} />
                 <Route path="allCategories" element={<AllCategories />} />
                 <Route path="Categories" element={<Categories />} />
+                <Route path="vehicle" element={<Vehicle />} />
+                <Route path="tablets" element={<Tablets />} />
+                <Route
+                  path="sports-accessories"
+                  element={<SportsAccessories />}
+                />
+                <Route
+                  path="mobile-accessories"
+                  element={<MobileAccessories />}
+                />
+                <Route
+                  path="kitchen-accessories"
+                  element={<KitchenAccessories />}
+                />
+                <Route path="furniture" element={<Furniture />} />
+                <Route path="mens-shoes" element={<MensShoes />} />
+                <Route path="mens-watches" element={<MensWatches />} />
                 <Route
                   path="checkout"
                   element={

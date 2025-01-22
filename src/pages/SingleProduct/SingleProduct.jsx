@@ -72,7 +72,7 @@ export default function SingleProduct() {
             <FaStar />
             <FaStar />
             <FaStar />
-            <i class="fa-regular fa-star-half-stroke"></i> {product.rating}
+            {product.rating}
           </h5>
 
           <div className="twobuttonadd col-12">

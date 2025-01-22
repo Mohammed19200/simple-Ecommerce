@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import "./AllCategories.css";
+import "./Categories.css";
 export default function AllCategories() {
   let navigate = useNavigate();
 
@@ -10,7 +10,7 @@ export default function AllCategories() {
         data-wow-delay="0.1s"
       >
         <h1 className="col-12 h1catigory">All Categories</h1>
-        <div className="Smartphones col-10 col-md-5 col-lg-3">
+        <div className="Smartphones col-10 col-sm-5 col-md-5 col-lg-3">
           {" "}
           <button
             onClick={() => {
@@ -18,10 +18,10 @@ export default function AllCategories() {
             }}
             className="categoriybutton"
           >
-            Smartphones
+            Smart Phones
           </button>{" "}
         </div>
-        <div className="sunglasses col-10 col-md-5 col-lg-3">
+        <div className="sunglasses col-10 col-sm-5 col-md-5 col-lg-3">
           {" "}
           <button
             onClick={() => {
@@ -32,7 +32,7 @@ export default function AllCategories() {
             Sunglasses
           </button>{" "}
         </div>
-        <div className="Motorcycle col-10 col-md-5 col-lg-3">
+        <div className="Motorcycle col-10 col-sm-5 col-md-5 col-lg-3">
           {" "}
           <button
             onClick={() => {
@@ -43,18 +43,18 @@ export default function AllCategories() {
             Motorcycle
           </button>{" "}
         </div>
-        <div className="lighting col-10 col-md-5 col-lg-3">
+        <div className="mens-watches col-10 col-sm-5 col-md-5 col-lg-3">
           {" "}
           <button
             onClick={() => {
-              navigate("/lighting");
+              navigate("/mens-watches");
             }}
             className="categoriybutton"
           >
-            eauty
+            Mens Watches
           </button>{" "}
         </div>
-        <div className="fragrances col-10 col-md-5 col-lg-3">
+        <div className="fragrances col-10 col-sm-5 col-md-5 col-lg-3">
           {" "}
           <button
             onClick={() => {
@@ -65,7 +65,7 @@ export default function AllCategories() {
             Fragrances
           </button>{" "}
         </div>
-        <div className="laptops col-10 col-md-5 col-lg-3">
+        <div className="laptops col-10 col-sm-5 col-md-5 col-lg-3">
           {" "}
           <button
             onClick={() => {
@@ -76,13 +76,7 @@ export default function AllCategories() {
             Laptops
           </button>{" "}
         </div>
-      </div>
-
-      <div
-        className="wow animate__animated animate__fadeInLeft animate__slow col-12 biiigestddiv"
-        data-wow-delay="0.1s"
-      >
-        <div className="Tops col-10 col-md-5 col-lg-3 ">
+        <div className="Tops col-10 col-sm-5 col-md-5 col-lg-3 ">
           {" "}
           <button
             onClick={() => {
@@ -93,18 +87,18 @@ export default function AllCategories() {
             Tops
           </button>
         </div>
-        <div className="Automotive col-10 col-md-5 col-lg-3">
+        <div className="mens-shoes col-10 col-sm-5 col-md-5 col-lg-3">
           {" "}
           <button
             onClick={() => {
-              navigate("/automotive");
+              navigate("/mens-shoes");
             }}
             className="categoriybutton"
           >
-            Automotive
+            Mens Shoes
           </button>{" "}
         </div>
-        <div className="Homedecoration col-10 col-md-5 col-lg-3">
+        <div className="Homedecoration col-10 col-sm-5 col-md-5 col-lg-3">
           {" "}
           <button
             onClick={() => {
@@ -115,13 +109,7 @@ export default function AllCategories() {
             Home-decoration
           </button>{" "}
         </div>
-      </div>
-
-      <div
-        className="wow animate__animated animate__fadeInRight animate__slow col-12 biiigestddiv"
-        data-wow-delay="0.1s"
-      >
-        <div className="Groceries col-10 col-md-5 col-lg-3 ">
+        <div className="Groceries col-10 col-sm-5 col-md-5 col-lg-3 ">
           {" "}
           <button
             onClick={() => {
@@ -132,16 +120,18 @@ export default function AllCategories() {
             Groceries
           </button>{" "}
         </div>
-        <div className="Skincare col-10 col-md-5 col-lg-3 ">
+        <div className="Skincare col-10 col-sm-5 col-md-5 col-lg-3 ">
           {" "}
           <button
             onClick={() => {
               navigate("/skincare");
             }}
             className="categoriybutton"
-          >Skincare</button>
+          >
+            Skincare
+          </button>
         </div>
-        <div className="Womensshoes col-10 col-md-5 col-lg-3 ">
+        <div className="Womensshoes col-10 col-sm-5 col-md-5 col-lg-3 ">
           {" "}
           <button
             onClick={() => {
@@ -152,13 +142,106 @@ export default function AllCategories() {
             Womens-shoes
           </button>{" "}
         </div>
-      </div>
-
-      <div
-        className="wow animate__animated animate__fadeInUp animate__slow col-12 biiigestddiv"
-        data-wow-delay="0.1s"
-      >
-        <div className="Womensbags col-10 col-md-5 col-lg-3 ">
+        <div className="womensdresses col-10 col-sm-5 col-md-5 col-lg-3 ">
+          {" "}
+          <button
+            onClick={() => {
+              navigate("/womensdresses");
+            }}
+            className="categoriybutton"
+          >
+            Womens Dresses
+          </button>{" "}
+        </div>
+        <div className="womensjewellery col-10 col-sm-5 col-md-5 col-lg-3 ">
+          {" "}
+          <button
+            onClick={() => {
+              navigate("/womensjewellery");
+            }}
+            className="categoriybutton"
+          >
+            Womens Jewellery
+          </button>{" "}
+        </div>
+        <div className="beauty col-10 col-sm-5 col-md-5 col-lg-3 ">
+          {" "}
+          <button
+            onClick={() => {
+              navigate("/beauty");
+            }}
+            className="categoriybutton"
+          >
+            Beauty
+          </button>
+        </div>
+        <div className="vehicle col-10 col-sm-5 col-md-5 col-lg-3 ">
+          {" "}
+          <button
+            onClick={() => {
+              navigate("/vehicle");
+            }}
+            className="categoriybutton"
+          >
+            Vehicle
+          </button>{" "}
+        </div>
+        <div className="Tablets col-10 col-sm-5 col-md-5 col-lg-3 ">
+          {" "}
+          <button
+            onClick={() => {
+              navigate("/tablets");
+            }}
+            className="categoriybutton"
+          >
+            Tablets
+          </button>{" "}
+        </div>
+        <div className="sports-accessories col-10 col-sm-5 col-md-5 col-lg-3 ">
+          {" "}
+          <button
+            onClick={() => {
+              navigate("/sports-accessories");
+            }}
+            className="categoriybutton"
+          >
+            Sports Accessories
+          </button>
+        </div>
+        <div className="mobile-accessories col-10 col-sm-5 col-md-5 col-lg-3 ">
+          {" "}
+          <button
+            onClick={() => {
+              navigate("/mobile-accessories");
+            }}
+            className="categoriybutton"
+          >
+            Mobile Accessories
+          </button>{" "}
+        </div>
+        <div className="kitchen-accessories col-10 col-sm-5 col-md-5 col-lg-3 ">
+          {" "}
+          <button
+            onClick={() => {
+              navigate("/kitchen-accessories");
+            }}
+            className="categoriybutton"
+          >
+            Kitchen Accessories
+          </button>{" "}
+        </div>
+        <div className="Furniture col-10 col-sm-5 col-md-5 col-lg-3 ">
+          {" "}
+          <button
+            onClick={() => {
+              navigate("/furniture");
+            }}
+            className="categoriybutton"
+          >
+            Furniture
+          </button>
+        </div>
+        <div className="Womensbags col-10 col-sm-5 col-md-5 col-lg-3 ">
           {" "}
           <button
             onClick={() => {
@@ -169,7 +252,7 @@ export default function AllCategories() {
             Womens-bags
           </button>{" "}
         </div>
-        <div className="Womenswatches col-10 col-md-5 col-lg-3 ">
+        <div className="Womenswatches col-10 col-sm-5 col-md-5 col-lg-3 ">
           {" "}
           <button
             onClick={() => {
@@ -180,7 +263,7 @@ export default function AllCategories() {
             Womens-watches
           </button>{" "}
         </div>
-        <div className="Menshirts col-10 col-md-5 col-lg-3 ">
+        <div className="Menshirts col-10 col-sm-5 col-md-5 col-lg-3 ">
           {" "}
           <button
             onClick={() => {
@@ -190,17 +273,6 @@ export default function AllCategories() {
           >
             Mens-shirts
           </button>
-        </div>
-        <div className="Womensdresses col-10 col-md-5 col-lg-3 ">
-          {" "}
-          <button
-            onClick={() => {
-              navigate("/womensdresses");
-            }}
-            className="categoriybutton"
-          >
-            Womens- dresses
-          </button>{" "}
         </div>
       </div>
     </div>

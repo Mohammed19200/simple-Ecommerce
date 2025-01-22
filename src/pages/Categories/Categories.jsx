@@ -7,7 +7,7 @@ export default function Categories() {
     <div className="col-12 thebiggestdivvategoriy">
       <div className="biiigestddivs col-12">
         <h1 className="col-12 h1catigory">Categories</h1>
-        <div className="Smartphones col-10 col-md-5 col-lg-3">
+        <div className="Smartphones col-10 col-sm-5 col-md-5 col-lg-3">
           {" "}
           <button
             onClick={() => {
@@ -18,7 +18,7 @@ export default function Categories() {
             Smartphones
           </button>{" "}
         </div>
-        <div className="sunglasses col-10 col-md-5 col-lg-3">
+        <div className="sunglasses col-10 col-sm-5 col-md-5 col-lg-3">
           {" "}
           <button
             onClick={() => {
@@ -29,7 +29,7 @@ export default function Categories() {
             Sunglasses
           </button>{" "}
         </div>
-        <div className="Motorcycle col-10 col-md-5 col-lg-3">
+        <div className="Motorcycle col-10 col-sm-5 col-md-5 col-lg-3">
           {" "}
           <button
             onClick={() => {
@@ -40,18 +40,18 @@ export default function Categories() {
             Motorcycle
           </button>{" "}
         </div>
-        <div className="lighting col-10 col-md-5 col-lg-3">
+        <div className="vehicle col-10 col-sm-5 col-md-5 col-lg-3">
           {" "}
           <button
             onClick={() => {
-              navigate("/lighting");
+              navigate("/vehicle");
             }}
             className="categoriybutton"
           >
-            Lighting
+            Vehicle
           </button>{" "}
         </div>
-        <div className="fragrances col-10 col-md-5 col-lg-3">
+        <div className="fragrances col-10 col-sm-5 col-md-5 col-lg-3">
           {" "}
           <button
             onClick={() => {
@@ -62,7 +62,7 @@ export default function Categories() {
             Fragrances
           </button>{" "}
         </div>
-        <div className="laptops col-10 col-md-5 col-lg-3">
+        <div className="laptops col-10 col-sm-5 col-md-5 col-lg-3">
           {" "}
           <button
             onClick={() => {

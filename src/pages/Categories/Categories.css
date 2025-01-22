@@ -52,8 +52,8 @@
   border-radius: 1.5rem;
 }
 
-.lighting {
-  background-image: url("../../assets/Lightingcat.jpg");
+.mens-watches {
+  background-image: url("../../assets/Mens-Watches.jpg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -95,12 +95,20 @@
 }
 
 .categoriybutton {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.2s linear;
   outline: 0;
   border: 0;
-  padding: 1rem;
+  padding: 0.7rem 1.2rem;
   border-radius: 1.5rem;
   background-color: #f66708db;
   color: #333;
+  transition: display ease 1s;
+  -webkit-transition: visibility 0s, opacity 0.2s linear;
+  -moz-transition: visibility 0s, opacity 0.2s linear;
+  -ms-transition: visibility 0s, opacity 0.2s linear;
+  -o-transition: visibility 0s, opacity 0.2s linear;
 }
 
 .categoriybutton:hover {
@@ -141,4 +149,402 @@
 
 .thebiggestdivvategoriy {
   padding: 2rem 0rem;
+}
+
+.Tops {
+  background-image: url("../../assets/tops.jfif");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 6.2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+}
+
+.mens-shoes {
+  background-image: url("../../assets/Mens-Shoes.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 6.2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+}
+
+.Homedecoration {
+  background-image: url("../../assets/Home-decoration.avif");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 6.2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+}
+
+.Groceries {
+  background-image: url("../../assets/Groceries.avif");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 6.2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+}
+
+.Skincare {
+  background-image: url("../../assets/Skincare.avif");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 6.2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+}
+
+.Womensshoes {
+  background-image: url("../../assets/Womens-shoes.avif");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 6.2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+}
+
+.Womensbags {
+  background-image: url("../../assets/Womens-bags.jfif");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 6.2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+}
+
+.Womenswatches {
+  background-image: url("../../assets/Womens-watches.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 6.2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+}
+
+.Menshirts {
+  background-image: url("../../assets/Mens-shirts.jfif");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 6.2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+}
+
+.Womensdresses {
+  background-image: url("../../assets/Womens- dresses.jfif");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 6.2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+}
+
+.biiigestddiv {
+  padding: 2rem 0rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 0rem;
+}
+/*  */
+.womensdresses {
+  background-image: url("../../assets/Womens-Dresses.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 6.2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+}
+
+.womensjewellery {
+  background-image: url("../../assets/Womens-Jewellery.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 6.2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+}
+
+.beauty {
+  background-image: url("../../assets/beauty.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 6.2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+}
+/*  */
+.vehicle {
+  background-image: url("../../assets/Vehicle.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 6.2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+}
+
+.Tablets {
+  background-image: url("../../assets/Tablets.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 6.2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+}
+
+.sports-accessories {
+  background-image: url("../../assets/Sports-Accessories.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 6.2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+}
+/*  */
+.Womensbags {
+  background-image: url("../../assets/Mobile-Accessories.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 6.2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+}
+
+.Womenswatches {
+  background-image: url("../../assets/Womens-watches.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 6.2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+}
+
+.Menshirts {
+  background-image: url("../../assets/Mens-shirts.jfif");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 6.2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+}
+/*  */
+.Womensbags {
+  background-image: url("../../assets/Womens-bags.jfif");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 6.2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+}
+
+.Womenswatches {
+  background-image: url("../../assets/Womens-watches.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 6.2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+}
+
+.Menshirts {
+  background-image: url("../../assets/Mens-shirts.jfif");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 6.2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+}
+/*  */
+.mobile-accessories {
+  background-image: url("../../assets/Mobile-Accessories.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 6.2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+}
+
+.kitchen-accessories {
+  background-image: url("../../assets/Kitchen-Accessories.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 6.2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+}
+
+.Furniture {
+  background-image: url("../../assets/Furniture.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 6.2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+}
+
+.Tops:hover .categoriybutton,
+.mens-shoes:hover .categoriybutton,
+.Homedecoration:hover .categoriybutton,
+.Groceries:hover .categoriybutton,
+.Skincare:hover .categoriybutton,
+.Womensshoes:hover .categoriybutton,
+.Womensbags:hover .categoriybutton,
+.Womenswatches:hover .categoriybutton,
+.Menshirts:hover .categoriybutton,
+.Womensdresses:hover .categoriybutton,
+.womensjewellery:hover .categoriybutton,
+.beauty:hover .categoriybutton,
+.vehicle:hover .categoriybutton,
+.Tablets:hover .categoriybutton,
+.sports-accessories:hover .categoriybutton,
+.Womensbags:hover .categoriybutton,
+.Womenswatches:hover .categoriybutton,
+.Menshirts:hover .categoriybutton,
+.Womensbags:hover .categoriybutton,
+.Womenswatches:hover .categoriybutton,
+.Menshirts:hover .categoriybutton,
+.mobile-accessories:hover .categoriybutton,
+.kitchen-accessories:hover .categoriybutton,
+.Furniture:hover .categoriybutton,
+.Smartphones:hover .categoriybutton,
+.sunglasses:hover .categoriybutton,
+.Motorcycle:hover .categoriybutton,
+.mens-watches:hover .categoriybutton,
+.fragrances:hover .categoriybutton,
+.Smartphones:hover .categoriybutton,
+.womensdresses:hover .categoriybutton,
+.laptops:hover .categoriybutton {
+  visibility: visible;
+  opacity: 1;
 }

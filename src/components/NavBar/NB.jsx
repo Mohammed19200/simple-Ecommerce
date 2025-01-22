@@ -7,10 +7,7 @@ import "./NB.css";
 export default function NB() {
   const [auth] = useRecoilState(authData);
   return (
-    <div
-      className="col-12 NBstylebackground"
-      data-wow-delay="0.8s"
-    >
+    <div className="col-12 NBstylebackground" data-wow-delay="0.8s">
       <div class="container">
         <header class="d-flex justify-content-center py-3">
           <ul class="nav nav-pills">
@@ -52,7 +49,7 @@ export default function NB() {
                           className="text-decoration-none colorlinks"
                           to="/Smartphones"
                         >
-                          Smartphones
+                          Smart Phones
                         </Link>{" "}
                       </a>
                     </li>
@@ -121,9 +118,9 @@ export default function NB() {
                       <a className="nav-link">
                         <Link
                           className="text-decoration-none colorlinks"
-                          to="/automotive"
+                          to="/beauty"
                         >
-                          Automotive
+                          Beauty
                         </Link>
                       </a>
                     </li>
@@ -133,19 +130,17 @@ export default function NB() {
                           className="text-decoration-none colorlinks"
                           to="/womensdresses"
                         >
-                          Womens- dresses
+                          Womens Dresses
                         </Link>
                       </a>
                     </li>
-                  </div>
-                  <div>
                     <li>
                       <a className="nav-link">
                         <Link
                           className="text-decoration-none colorlinks"
                           to="/homedecoration"
                         >
-                          Home-decoration
+                          Home Decoration
                         </Link>
                       </a>
                     </li>
@@ -175,27 +170,19 @@ export default function NB() {
                           className="text-decoration-none colorlinks"
                           to="/womensshoes"
                         >
-                          Womens-shoes
+                          Womens Shoes
                         </Link>
                       </a>
                     </li>
-                    <li>
-                      <a className="nav-link">
-                        <Link
-                          className="text-decoration-none colorlinks"
-                          to="/womensbags"
-                        >
-                          Womens-bags
-                        </Link>
-                      </a>
-                    </li>
+                  </div>
+                  <div>
                     <li>
                       <a className="nav-link">
                         <Link
                           className="text-decoration-none colorlinks"
                           to="/womenswatches"
                         >
-                          Womens-watches
+                          Womens Watches
                         </Link>
                       </a>
                     </li>
@@ -205,7 +192,97 @@ export default function NB() {
                           className="text-decoration-none colorlinks"
                           to="/mensshirts"
                         >
-                          Mens-shirts
+                          Mens Shirts
+                        </Link>
+                      </a>
+                    </li>
+                    <li>
+                      <a className="nav-link">
+                        <Link
+                          className="text-decoration-none colorlinks"
+                          to="/womensjewellery"
+                        >
+                          Womens Jewellery
+                        </Link>
+                      </a>
+                    </li>
+                    <li>
+                      <a className="nav-link">
+                        <Link
+                          className="text-decoration-none colorlinks"
+                          to="/vehicle"
+                        >
+                          Vehicle
+                        </Link>
+                      </a>
+                    </li>
+                    <li>
+                      <a className="nav-link">
+                        <Link
+                          className="text-decoration-none colorlinks"
+                          to="/mens-shoes"
+                        >
+                          Mens Shoes
+                        </Link>
+                      </a>
+                    </li>
+                    <li>
+                      <a className="nav-link">
+                        <Link
+                          className="text-decoration-none colorlinks"
+                          to="/tablets"
+                        >
+                          Tablets
+                        </Link>
+                      </a>
+                    </li>
+                    <li>
+                      <a className="nav-link">
+                        <Link
+                          className="text-decoration-none colorlinks"
+                          to="/sports-accessories"
+                        >
+                          Sports Accessories
+                        </Link>
+                      </a>
+                    </li>
+                    <li>
+                      <a className="nav-link">
+                        <Link
+                          className="text-decoration-none colorlinks"
+                          to="/mobile-accessories"
+                        >
+                          Mobile Accessories
+                        </Link>
+                      </a>
+                    </li>
+                    <li>
+                      <a className="nav-link">
+                        <Link
+                          className="text-decoration-none colorlinks"
+                          to="/kitchen-accessories"
+                        >
+                          Kitchen Accessories
+                        </Link>
+                      </a>
+                    </li>
+                    <li>
+                      <a className="nav-link">
+                        <Link
+                          className="text-decoration-none colorlinks"
+                          to="/furniture"
+                        >
+                          furniture
+                        </Link>
+                      </a>
+                    </li>
+                    <li>
+                      <a className="nav-link">
+                        <Link
+                          className="text-decoration-none colorlinks"
+                          to="/mens-watches"
+                        >
+                          Mens watches
                         </Link>
                       </a>
                     </li>
